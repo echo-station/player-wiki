@@ -29,19 +29,9 @@ jobs:
           # Just add a `cd` here if you need to change to another directory.
           mdbook build
 
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.WIKI_CF_PAGES_TOKEN }}
-          accountId: ${{ vars.WIKI_CF_ACCOUNT_ID }}
-          projectName: ${{ vars.WIKI_CF_PROJECT_NAME }}
-          directory: book
-          # Optional: Enable this if you want to have GitHub Deployments triggered
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Switch what branch you are publishing to.
-          # By default this will be the branch which triggered this workflow
-          #branch: master
-          # Optional: Change the working directory
-          #workingDirectory: .
-          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
-          #wranglerVersion: '3'
+          accountId: ${{ secrets.WIKI_CF_ACCOUNT_ID }}
+          command: pages deploy book --project-name=${{ vars.WIKI_CF_PROJECT_NAME }}
