@@ -198,49 +198,42 @@ Items in the list are preceded by an indication of which department or job is le
 <tbody><tr>
 <th>Offense</th>
 <th>Description</th>
-<th>Image</th>
 <th>Notes</th>
 <th>Code
 </th></tr>
 <tr>
 <td id="Animal_Cruelty">Animal Cruelty</td>
 <td>To inflict unnecessary suffering or harm on a non-sapient being with malicious intent.</td>
-<td></td>
 <td>This doesn’t include legitimate and authorized animal testing and usually doesn't extend to vermin or creatures that could pose a threat to the station.</td>
 <td>1-00
 </td></tr>
 <tr>
 <td style="background-color:#2f3832;" id="Possession_IS">Possession/Use of Controlled Substances</td>
 <td style="background-color:#2f3832;">To make, hold, or abuse restricted drugs or chemicals without authorization.</td>
-<td style="background-color:#2f3832;"></td>
 <td style="background-color:#2f3832;">Combat enhancing drugs are those that benefit stun times, or movement speed, and are restricted. Poisons are restricted. Substances such as Ephedrine, Desoxyephedrine, and stimulants are restricted. The captain or highest standing command staff may publicly restrict other harmful substances.</td>
 <td style="background-color:#2f3832;">1-01
 </td></tr>
 <tr>
 <td style="background-color:#2e422e;" id="Petty_Theft">Petty Theft</td>
 <td style="background-color:#2e422e;">To take non-vital or inexpensive property of another individual, organization, or common property, without consent.</td>
-<td style="background-color:#2e422e;"></td>
 <td style="background-color:#2e422e;">The difference between petty theft and grand theft is based on how crucial the stolen item is, things like instruments, clothing and tools fall under petty theft. In most cases all you need to do is detain the thief, return the stolen item and let them go with a warning.</td>
 <td style="background-color:#2e422e;">1-02
 </td></tr>
 <tr>
 <td style="background-color:#453a59;" id="Vandalism">Vandalism</td>
 <td style="background-color:#453a59;">To intentionally deface or superficially damage public or private property.</td>
-<td style="background-color:#453a59;"></td>
 <td style="background-color:#453a59;">Painting graffiti, smashing bar glasses, and cracking internal windows is vandalism, breaking a window into space or secure areas is not.</td>
 <td style="background-color:#453a59;">1-03
 </td></tr>
 <tr>
 <td style="background-color:#59563a;" id="Trespass">Trespass</td>
 <td style="background-color:#59563a;">To enter a non-secured area without permission.</td>
-<td style="background-color:#59563a;"></td>
 <td style="background-color:#59563a;">It's best to just remove them from the area unless this is a repeated crime.</td>
 <td style="background-color:#59563a;">1-04
 </td></tr>
 <tr>
 <td style="background-color:#3b4354;" id="Disturbance">Disturbance</td>
 <td style="background-color:#3b4354;">To cause a public disturbance.</td>
-<td style="background-color:#3b4354;"></td>
 <td style="background-color:#3b4354;">Sometimes referred to as hooliganism. The catch-all for obnoxious crewmates. Covers things such as public nudity, needless insults, obstructing authorities, and inciting crime or violence.</td>
 <td style="background-color:#3b4354;">1-07
 </td></tr>
@@ -256,35 +249,30 @@ Items in the list are preceded by an indication of which department or job is le
 <tbody><tr>
 <th>Offense</th>
 <th>Description</th>
-<th>Image</th>
 <th>Notes</th>
 <th>Code
 </th></tr>
 <tr>
 <td style="background-color:#593a4e;" id="Failure_to_Comply">Failure to Comply</td>
 <td style="background-color:#593a4e;">To resist reasonable orders given by an authority. This extends to authorized searches.</td>
-<td style="background-color:#593a4e;"></td>
 <td style="background-color:#593a4e;">The order has to be reasonable and the person has to receive a good amount of warning before the arrest is issued.</td>
 <td style="background-color:#593a4e;">2-00
 </td></tr>
 <tr>
 <td style="background-color:#2f3832;" id="Possession_RG">Possession of Restricted Gear</td>
 <td style="background-color:#2f3832;">To hold or use non-lethal items or objects that are restricted or illegal.</td>
-<td style="background-color:#2f3832;"></td>
 <td style="background-color:#2f3832;">This is mostly for syndicate contraband; EMAGs, syndicate gas masks, bloodred hardsuits, hijacked PDAs, or syndicate implants, however can sometimes extend to things the individual shouldn't possess like kevlar vests and security gear.</td>
 <td style="background-color:#2f3832;">2-01
 </td></tr>
 <tr>
 <td style="background-color:#453a59;" id="Damage_of_Property">Damage/Destruction of Property</td>
 <td style="background-color:#453a59;">To maliciously damage or deface public or private property or equipment</td>
-<td style="background-color:#453a59;"></td>
 <td style="background-color:#453a59;">Includes destruction of job equipment such as hydro trays, booze dispensers, chemical dispensers. Step up from vandalism but a step down from mass destruction.</td>
 <td style="background-color:#453a59;">2-03
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Endangerment">Endangerment</td>
 <td style="background-color:#4d2e2e;">To recklessly put yourself or others in danger, either through direct action, or failure to act.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">Covers industrial accidents, industrial negligence, self-experimentation, or even medical malpractice.</td>
 <td style="background-color:#4d2e2e;">2-05
 </td></tr>
@@ -302,63 +290,54 @@ Items in the list are preceded by an indication of which department or job is le
 <tbody><tr>
 <th>Offense</th>
 <th>Description</th>
-<th>Image</th>
 <th>Notes</th>
 <th>Code
 </th></tr>
 <tr>
 <td style="background-color:#593a4e;" id="Breach_of_Arrest">Breach of Arrest</td>
 <td style="background-color:#593a4e;">To intentionally resist and flee arrest or detainment by an authorized staff.</td>
-<td style="background-color:#593a4e;"></td>
 <td style="background-color:#593a4e;">This only applies if someone is actively being physically arrested. People uncuffing or assisting others out of an arrest can also be charged with this. Breach of custody is a separate crime.</td>
 <td style="background-color:#593a4e;">3-00
 </td></tr>
 <tr>
 <td style="background-color:#2f3832;" id="Possession_RW">Possession of Restricted Weaponry</td>
 <td style="background-color:#2f3832;">To hold or use a weapon that is unlawful or contraband.</td>
-<td style="background-color:#2f3832;"></td>
 <td style="background-color:#2f3832;">Everything from guns without a permit, deadly blades, explosives, syndicate firearms to explosive implants.</td>
 <td style="background-color:#2f3832;">3-01
 </td></tr>
 <tr>
 <td style="background-color:#2e422e;" id="Grand_Theft">Grand Theft</td>
 <td style="background-color:#2e422e;">To take critical or unreplaceable property of another individual or organization without consent.</td>
-<td style="background-color:#2e422e;"></td>
 <td style="background-color:#2e422e;">The difference between petty theft and grand theft is based on how crucial the stolen item is, this mostly is used for the theft of command staff items, things like door remotes, hardsuits, jetpacks, and unreplaceable machine parts.</td>
 <td style="background-color:#2e422e;">3-02
 </td></tr>
 <tr>
 <td style="background-color:#453a59;" id="Mass_Destruction">Mass Destruction</td>
 <td style="background-color:#453a59;">To cause massive damage to an area or major station system.</td>
-<td style="background-color:#453a59;"></td>
 <td style="background-color:#453a59;">This is mostly used for deadly bombings or sabotage of major station systems such as power production, chemistry, substations, or atmos.</td>
 <td style="background-color:#453a59;">3-03
 </td></tr>
 <tr>
 <td style="background-color:#59563a;" id="Secure_Trespass">Secure Trespass</td>
 <td style="background-color:#59563a;">To enter a secured area without permission.</td>
-<td style="background-color:#59563a;"></td>
 <td style="background-color:#59563a;">This covers places like telecomms, head offices, security zones, command areas, the vault and armory.</td>
 <td style="background-color:#59563a;">3-04
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Assault">Assault/Battery</td>
 <td style="background-color:#4d2e2e;">To threaten to or to use physical force against someone without the intent to kill.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">Attempted murder and battery are different; a fist fight is most likely assault. A shooting is most likely an attempt at murder.</td>
 <td style="background-color:#4d2e2e;">3-05
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Manslaughter">Manslaughter</td>
 <td style="background-color:#4d2e2e;">To incidentally kill a sapient being without intent.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">Includes manslaughter in self-defense and negligent manslaughter.</td>
 <td style="background-color:#4d2e2e;">3-06
 </td></tr>
 <tr>
 <td style="background-color:#3b4354;" id="Rioting">Rioting</td>
 <td style="background-color:#3b4354;">To take part in a large group of personnel creating an unlawful public disturbance.</td>
-<td style="background-color:#3b4354;"></td>
 <td style="background-color:#3b4354;">Crimes like damage of property or battery are expected to be thrown on top of this charge. Leaders of a riot can be charged with all crimes that happen under their lead.</td>
 <td style="background-color:#3b4354;">3-07
 </td></tr>
@@ -375,35 +354,30 @@ Items in the list are preceded by an indication of which department or job is le
 <tbody><tr>
 <th>Offense</th>
 <th>Description</th>
-<th>Image</th>
 <th>Notes</th>
 <th>Code
 </th></tr>
 <tr>
 <td style="background-color:#593a4e;" id="Breach_of_Custody">Breach of Custody</td>
 <td style="background-color:#593a4e;">To break out of a cell or custody with the intention of escaping.</td>
-<td style="background-color:#593a4e;"></td>
 <td style="background-color:#593a4e;">While rare, <b>this charge can be bumped to an execution if the suspect has repeatedly attempted to break out of the permanent brig.</b> Includes people breaking others out.</td>
 <td style="background-color:#593a4e;">4-00
 </td></tr>
 <tr>
 <td id="Kidnapping">Kidnapping</td>
 <td>To unlawfully restrain, transport, control or confine a sapient being against that individual’s will.</td>
-<td></td>
 <td>A large range of things, used mostly as a catch all when dealing with unlawful control of another being.</td>
 <td>4-02
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Attempted_Murder">Attempted Murder</td>
 <td style="background-color:#4d2e2e;">To make an attempt to use physical force against someone with the clear intent to kill.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">Make sure you've got the proof to back up the intention claims, such as proof of a lethal weapon being used.</td>
 <td style="background-color:#4d2e2e;">4-05
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Murder">Murder</td>
 <td style="background-color:#4d2e2e;">To kill a sapient being with malicious intent.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">This only changes from attempted to full-on murder if the victim enters a state of being deceased, having to be resurrected.</td>
 <td style="background-color:#4d2e2e;">4-06
 </td></tr>
@@ -418,35 +392,30 @@ Items in the list are preceded by an indication of which department or job is le
 <tbody><tr>
 <th>Offense</th>
 <th>Description</th>
-<th>Image</th>
 <th>Notes</th>
 <th>Code
 </th></tr>
 <tr>
 <td style="background-color:#593a4e;" id="Refusal_of_Mental_Shielding">Refusal of Mental Shielding</td>
 <td style="background-color:#593a4e;">To refuse to comply with a reasonable Mind Shielding procedure.</td>
-<td style="background-color:#593a4e;"></td>
 <td style="background-color:#593a4e;">Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone. <b>If the implant fails execution is heavily recommended.</b></td>
 <td style="background-color:#593a4e;">5-00
 </td></tr>
 <tr>
 <td style="background-color:#453a59;" id="Terrorism">Terrorism</td>
 <td style="background-color:#453a59;">To engage in maliciously destructive actions which threaten to destroy, or successfully destroy a vessel or habitat.</td>
-<td style="background-color:#453a59;"></td>
 <td style="background-color:#453a59;">Summed up; extreme sabotage of station systems or setting off self-destruction systems.</td>
 <td style="background-color:#453a59;">5-03
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Prevention_of_Revival">Prevention of Revival</td>
 <td style="background-color:#4d2e2e;">To render a body unresurrectable.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">This covers gibbing, spacing, intentionally hiding a body, or other ways of preventing a body with a soul from being resurrected.</td>
 <td style="background-color:#4d2e2e;">5-05
 </td></tr>
 <tr>
 <td style="background-color:#4d2e2e;" id="Mass_Murder">Mass Murder</td>
 <td style="background-color:#4d2e2e;">To kill three or more sapient beings with malicious intent.</td>
-<td style="background-color:#4d2e2e;"></td>
 <td style="background-color:#4d2e2e;">Only applies when there have been multiple killings with intention.</td>
 <td style="background-color:#4d2e2e;">5-06
 </td></tr>
