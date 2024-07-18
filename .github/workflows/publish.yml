@@ -20,12 +20,8 @@ jobs:
         with:
           toolchain: stable
       
-      - name: Install latest mdbook
-        run: cargo install mdbook
-
-      - name: Install addons
-        run: |
-          cargo install mdbook-callouts
+      - name: Install mdbook and addons
+        run: cargo install mdbook mdbook-callouts
 
       - name: Build book
         run: |
