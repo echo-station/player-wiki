@@ -33,8 +33,8 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.WIKI_CF_PAGES_TOKEN }}
-          accountId: ${{ env.WIKI_CF_ACCOUNT_ID }}
-          projectName: ${{ env.WIKI_CF_PROJECT_NAME }}
+          accountId: ${{ vars.WIKI_CF_ACCOUNT_ID }}
+          projectName: ${{ vars.WIKI_CF_PROJECT_NAME }}
           directory: book
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
