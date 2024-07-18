@@ -21,7 +21,7 @@ jobs:
           toolchain: stable
       
       - name: Install mdbook and addons
-        run: cargo install mdbook mdbook-callouts
+        run: cargo install mdbook mdbook-admonish
 
       - name: Build book
         run: |
