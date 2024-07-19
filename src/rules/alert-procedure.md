@@ -99,11 +99,11 @@ Your contract within the station is terminated by CentCom. Usually get's trigger
 | Chain of command | Central Command -> N/A |
 | Rules of engagement | Don't engage with the arrived team, let them do their job. |
 
-
 # License
 
 The source material and any changes made after copying it are available under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). **Changes have been made**.
 
 Source material may include:
-    https://wiki.spacestation14.io/
-    https://wiki.delta-v.org
+
+- [https://wiki.spacestation14.io/](https://wiki.spacestation14.io/)
+- [https://wiki.delta-v.org](https://wiki.delta-v.org)
