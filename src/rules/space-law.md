@@ -423,5 +423,8 @@ Items in the list are preceded by an indication of which department or job is le
 
 # License
 
-Most if not all of the content of this page was originally created at [Space Station 14 Wiki - Space Law](https://wiki.spacestation14.io/wiki/Space_Law). **Modifications have been made.** The source material and any changes made after copying it are available under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/).
+The source material and any changes made after copying it are available under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). **Changes have been made**.
 
+Source material may include:
+    https://wiki.spacestation14.io/
+    https://wiki.delta-v.org
