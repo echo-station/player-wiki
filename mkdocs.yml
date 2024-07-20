@@ -15,6 +15,9 @@ nav:
 
 markdown_extensions:
   - tables
+  - admonition
+  - pymdownx.details # for admonitions
+  - pymdownx.superfences # for admonitions
 
 plugins:
   - search # Enables search (yes, really!)
@@ -66,6 +69,7 @@ theme:
 
 # Social links
 extra:
+
   social:
 
     - icon: fontawesome/brands/discord

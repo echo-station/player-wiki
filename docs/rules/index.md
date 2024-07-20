@@ -1,6 +1,10 @@
 ---
-title: Server Rules
+title: Company Policy
+summary: Server rules
 tags: [rules]
 ---
 
-Rules page
+!!! note
+    These are the server rules. Take them seriously.
+
+# Company Policy
