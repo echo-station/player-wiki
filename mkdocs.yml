@@ -1,0 +1,71 @@
+site_name: Echo Station Wiki
+docs_dir: docs
+site_url: https://wiki.echo-station.org/
+repo_url: https://github.com/echo-station/wiki
+
+nav:
+  - Welcome: index.md
+  - Rules:
+    - rules/index.md
+    - rules/space-law.md
+    - rules/standard-operating-procedure.md
+    - rules/alert-procedure.md
+  - Lore:
+    - lore/lore.md
+
+plugins:
+  - search
+
+  # Shows a clean list of Github profiles at the bottom of a page.
+  - git-committers:
+      repository: echo-station/wiki
+      branch: master
+
+  # Adds "Created:" and "Last update:" footer to each page.
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+theme:
+  name: material
+
+  features:
+    - navigation.instant # Use XHR to load pages without full reload
+    - navigation.tracking # Automatically sets URL depending on page scroll
+    - navigation.tabs # Top-level sections are rendered as tabs if window is wide enough
+    - navigation.tabs.stick # Tab bar is sticky
+    - navigation.sections # TEMPORARY??? NOT SURE IF THIS IS GOOD OR NOT
+    - navigation.expand # Left sidebar will expand by default
+    - navigation.prune # Stips unused navigation items per page, reducing page size
+    - navigation.indexes # Sets folder/index.html as the "folder" page MAAAYBEEE
+    - toc.follow # When anchor following is enabled, sidebar scrolls to current anchor
+    - search.suggest # Autocomplete for search
+    - search.highlight # Highlight search query in page content
+
+  palette:
+
+    # Dark mode first, making it the default.
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep-orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep-orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+# Social links
+extra:
+  social:
+
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/m34HWue3h3
+      name: Discord
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/echo-station
+      name: GitHub

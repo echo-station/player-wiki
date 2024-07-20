@@ -15,23 +15,28 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install toolchain
-        uses: dtolnay/rust-toolchain@master
+      - name: Install Python
+        uses: actions/setup-python@v5
         with:
-          toolchain: stable
+          python-version: 3.x
       
-      - name: Install mdbook and addons
-        run: cargo install mdbook mdbook-admonish
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
 
-      - name: Build book
-        run: |
-          # This assumes your book is in the root of your repository.
-          # Just add a `cd` here if you need to change to another directory.
-          mdbook build
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Build
+        run: mkdocs build
 
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.WIKI_CF_PAGES_TOKEN }}
           accountId: ${{ secrets.WIKI_CF_ACCOUNT_ID }}
-          command: pages deploy book --project-name=${{ vars.WIKI_CF_PROJECT_NAME }}
+          command: pages deploy site --project-name=${{ vars.WIKI_CF_PROJECT_NAME }}
