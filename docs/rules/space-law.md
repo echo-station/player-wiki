@@ -1,3 +1,7 @@
+---
+title: Space Law
+tags: [rules]
+---
 
 On Space Station 14, stations operate under abbreviated space law. All crew, passengers, and visitors aboard the station are expected to follow these laws.
 

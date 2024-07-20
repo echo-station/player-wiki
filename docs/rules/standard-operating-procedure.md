@@ -1,9 +1,15 @@
+---
+title: Standard Operating Procedure
+tags: [rules]
+---
+
 
 # Standard Operating Procedure
 This page covers the standardized guidelines and procedures on board the station. Note that these are not laws, and the **Captain** may alter them as they see fit. Make sure to look at [Alert Procedure](./alert-procedure.md) for guidelines that change based on the alert level.
 
 ## Line of succession
 If the captain dies and is unrecoverable for whatever reason, then a new captain must be selected. this follows a fairly simple ruling which has a step by step guide:
+
 * Step 1: Is captain still alive? if so proceed to step 5, if not proceed to the next step.
 * Step 2: Is hop still alive? if so proceed to step 5, if not proceed to the next step.
 * Step 3: All heads may vote on a head to make captain, then should proceed to step 5, If all heads are dead proceed to the next step.
@@ -61,6 +67,7 @@ It should be noted that **two different persons** must **always** participate in
 
 ## Research Operations
 Science employees are permitted to use their lab spaces as they see fit with the following exceptions:
+
 * Any human experimentation must be done with the consent of the test subject, and must not have an undue risk of life. The Captain or RD may terminate any experiment for safety or ethical purposes at their discretion.
 * Self-Experimentation is prohibited and is chargeable with endangerment.
 * Testing of any explosives with risk of penetrating the hull or causing mass destruction must be done at an [[Salvaging|off-station site]].
@@ -72,12 +79,14 @@ Science employees are permitted to use their lab spaces as they see fit with the
 ## Contraband Lists
 
 **Contraband** is gear or items made illegal under Space Law. Any crewmate using these will answer heavily for it according to Space Law. The current list of contraband is as follows:
+
 * Any hostile corporation technology. Anything that has been produced by a hostile force that is completely it's own design or items that are similar NT tech but are designed to differ in substantial ways.
 * Biological or Chemical Weapons, such as neurotoxin grenades. Plasma gas is considered a chemical weapon when used offensively.
 * Hacking software which allows a person to subvert access to ship systems, bypass access restrictions or attack a vessels computer network.
 * Military Explosives when not in use by Security or otherwise authorized entities. Note that constructive explosives, such as any charges used for mining are not subject to this restriction. Plasma-based explosives are considered military weapons.
 
 **Controlled Substances** are any chemicals that have been restricted or made illegal under Space Law. This includes items or foods that contain any illegal substance. These can be used with permission from both the Chief Medical Officer and Head of Security. The current list of controlled substances is as follows:
+
 * Any explosive or pyrotechnic compound outside of Science. Excluding welding fuel contained in welders. (Anything in the in-game guidebook listed under Pyrotechnics.)
 * Any lethal toxin or toxic substance/compound outside of Science. (Anything in the in-game guidebook listed under Toxins.)
 * Chloral hydrate, Impedrezene, Ipecac, and Pax, when used outside of medical procedures or medicinal prescriptions.
@@ -90,6 +99,7 @@ Science employees are permitted to use their lab spaces as they see fit with the
 * Stimulants. Both the plain chemical itself and chemicals like Desoxyephedrine or Ephedrine.
 
 **Restricted Gear** is equipment that has been restricted to a specific station job or department. Exceptions can be made with proper authorization, usually a signed paper by the involved department head. The current list is as follows:
+
 * [ERT/Central Command] ERT and central command clothing.
 * [Command] Command clothing.
 * [Security] Security clothing.
@@ -103,7 +113,6 @@ Science employees are permitted to use their lab spaces as they see fit with the
 * [None] Improvised weaponry. Spears, baseball bats, shivs, etc.
 
 # License
-
 The source material and any changes made after copying it are available under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). **Changes have been made**.
 
 Source material may include:

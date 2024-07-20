@@ -5,5 +5,5 @@
     editor: markdown
 ---
 
-# Welcome
-Welcome!
+# Echo Station
+Welcome aboard, spationaut. We here at NanoTrasen are glad to have you onboard our profits-oriented endeavours.

@@ -1,5 +1,6 @@
 ---
-title: Rules
+title: Server Rules
+tags: [rules]
 ---
 
 Rules page

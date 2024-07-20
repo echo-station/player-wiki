@@ -10,14 +10,19 @@ nav:
     - rules/space-law.md
     - rules/standard-operating-procedure.md
     - rules/alert-procedure.md
-  - Lore:
-    - lore/lore.md
+  # - Lore:
+  #   - lore/lore.md
+
+markdown_extensions:
+  - tables
 
 plugins:
-  - search
+  - search # Enables search (yes, really!)
+  - tags # Lets pages have a "tags:" property for searching
 
   # Shows a clean list of Github profiles at the bottom of a page.
   - git-committers:
+      enabled: false
       repository: echo-station/wiki
       branch: master
 
@@ -36,7 +41,7 @@ theme:
     - navigation.sections # TEMPORARY??? NOT SURE IF THIS IS GOOD OR NOT
     - navigation.expand # Left sidebar will expand by default
     - navigation.prune # Stips unused navigation items per page, reducing page size
-    - navigation.indexes # Sets folder/index.html as the "folder" page MAAAYBEEE
+    #- navigation.indexes # Sets folder/index.html as the "folder" page MAAAYBEEE
     - toc.follow # When anchor following is enabled, sidebar scrolls to current anchor
     - search.suggest # Autocomplete for search
     - search.highlight # Highlight search query in page content
@@ -46,7 +51,7 @@ theme:
     # Dark mode first, making it the default.
     # Palette toggle for dark mode
     - scheme: slate
-      primary: deep-orange
+      primary: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -54,6 +59,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       primary: deep-orange
+      accent: cyan
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
