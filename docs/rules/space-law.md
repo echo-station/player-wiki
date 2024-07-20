@@ -113,7 +113,20 @@ Items in the list are preceded by an indication of which department or job is le
 
 ## Quick Crime Guide
 
-<table class="wikitable">
+<!-- | 1-XX - Minor | 2-XX - Moderate | 3-XX - Major | 4-XX - Extreme | 5-XX - Capital | Code |
+|---|---|---|---|---|---|
+| Animal Cruelty | Failure to Comply (E) | Breach of Arrest (E) | Breach of Custody (E) | Refusal of Mental Shielding (E) | 00 |
+| Possession: Substances (P) | Possession: Gear (P) | Possession: Weaponry (P) |  |  | 01 |
+| Petty Theft (H) |  | Grand Theft (H) | Kidnapping |  | 02 |
+| Vandalism (D) | Damage of Property (D) | Mass Destruction (D) |  | Terrorism (D) | 03 |
+| Trespass (T) |  | Secure Trespass (T) |  |  | 04 |
+|  | Endangerment (V) | Assault (V) | Attempted Murder (V) | [Prevention of Revival (V) | 05 |
+|  |  | Manslaughter (V) | Murder (V) | Mass Murder (V) | 06 |
+| Disturbance (R) |  | Rioting (R) |  |  | 07 | -->
+
+<div class="md-typeset__scrollwrap">
+<div class="md-typeset__table">
+<table>
 
 <tbody><tr>
 <th><a href="#FirstDegree">1-XX - Minor</a></th>
@@ -187,6 +200,8 @@ Items in the list are preceded by an indication of which department or job is le
 <td></td>
 <td>07
 </td></tr></tbody></table>
+</div>
+</div>
 
 * Crime codes are organized by a Category Code (_-xx) which is a collection of non-stackable crimes on a row, prefixed by the Severity Number (X-__).
 
@@ -197,7 +212,7 @@ Items in the list are preceded by an indication of which department or job is le
 * Warnings should be issued for a first offense. 
 * If multiple minor crimes have been committed or it is a repeat offense, 5 minutes per minor crime is the maximum.
 
-<table class="wikitable" id="FirstDegree">
+<table id="FirstDegree">
 
 <tbody><tr>
 <th>Offense</th>
@@ -248,7 +263,7 @@ Items in the list are preceded by an indication of which department or job is le
 * The maximum sentence per moderate crime is 5 minutes.
 * Depending on the situation you may want to issue a warning instead of a detaining.
 
-<table class="wikitable" id="SecondDegree">
+<table id="SecondDegree">
 
 <tbody><tr>
 <th>Offense</th>
@@ -289,7 +304,7 @@ Items in the list are preceded by an indication of which department or job is le
 * Assault and Manslaughter are linked crimes, and cannot be stacked against a suspect. 
 * It is recommended to not use maximum sentences for those being compliant. 
 
-<table class="wikitable" id="ThirdDegree">
+<table id="ThirdDegree">
 
 <tbody><tr>
 <th>Offense</th>
@@ -353,7 +368,7 @@ Items in the list are preceded by an indication of which department or job is le
 * Attempted murder and murder are linked crimes and cannot be stacked together. 
 * Attempted murderers should be granted a more lenient sentence than a murderer.
 
-<table class="wikitable" id="FourthDegree">
+<table id="FourthDegree">
 
 <tbody><tr>
 <th>Offense</th>
@@ -390,9 +405,7 @@ Items in the list are preceded by an indication of which department or job is le
 ### Capital Crimes
 * Capital crimes should usually lead to a death sentence or shift lasting detainment.
 
-<table class="wikitable" id="FifthDegree">
-<caption>Capital Crimes
-</caption>
+<table id="FifthDegree">
 <tbody><tr>
 <th>Offense</th>
 <th>Description</th>
