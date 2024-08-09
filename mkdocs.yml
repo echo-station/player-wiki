@@ -7,9 +7,6 @@ nav:
   - Welcome: index.md
   - Rules:
     - rules/index.md
-    - rules/space-law.md
-    - rules/standard-operating-procedure.md
-    - rules/alert-procedure.md
     - Core rules:
       - rules/core/c1-admins.md
       - rules/core/c2-be-nice.md
@@ -54,7 +51,10 @@ nav:
       - rules/silicon/s8-default-crew-definition.md
       - rules/silicon/s9-default-harm-definition.md
       - rules/silicon/s10-order-conflicts.md
-
+  - Documents:
+    - documents/space-law.md
+    - documents/standard-operating-procedure.md
+    - documents/alert-procedure.md
   # - Lore:
   #   - lore/lore.md
 
@@ -118,7 +118,7 @@ extra:
   social:
 
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/m34HWue3h3
+      link: https://discord.gg/u3qKDyrDFQ
       name: Discord
 
     - icon: fontawesome/brands/github
