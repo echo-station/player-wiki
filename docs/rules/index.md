@@ -3,20 +3,20 @@
 
 These rules apply at all times, including between rounds.
 
-- [1. Admins have final say](./c1-admins.md)
-- [2. Don't be a dick](./c2-be-nice.md)
-- [3. No Hate Speech or Discriminatory Language](./c3-no-hate.md)
-- [4. No sexual content/themes, including erotic roleplay (ERP) and no shock content](./c4-no-erp.md)
-- [5. Do not use out of game methods to communicate with other players](./c5-metacomms.md)
-- [6. Do not attempt to evade bans](./c6-ban-evasion.md)
-- [7. Only use English](./c7-english-only.md)
-- [8. Do not exploit the game, use cheats, or macros](./c8-exploits.md)
-- [9. Do not use multiple accounts, or alt accounts, and do not share accounts](./c9-multikey.md)
-- [10. Do not abuse or ignore admin messages](./c10-ahelp.md)
-- [11. Do not threaten to ahelp other players or argue with them about rules](./c11-ahelp-threats.md)
-- [12. Players must be and act at least 16 years old](./c12-min-age.md)
-- [13. Use realistic character names, and do not use names of famous people](./c13-character-names.md)
-- [14. Do not use LOOC or OOC to share current round information](./c14-ic-in-ooc.md)
+- [1. Admins have final say](./core/c1-admins.md)
+- [2. Don't be a dick](./core/c2-be-nice.md)
+- [3. No Hate Speech or Discriminatory Language](./core/c3-no-hate.md)
+- [4. No sexual content/themes, including erotic roleplay (ERP) and no shock content](./core/c4-no-erp.md)
+- [5. Do not use out of game methods to communicate with other players](./core/c5-metacomms.md)
+- [6. Do not attempt to evade bans](./core/c6-ban-evasion.md)
+- [7. Only use English](./core/c7-english-only.md)
+- [8. Do not exploit the game, use cheats, or macros](./core/c8-exploits.md)
+- [9. Do not use multiple accounts, or alt accounts, and do not share accounts](./core/c9-multikey.md)
+- [10. Do not abuse or ignore admin messages](./core/c10-ahelp.md)
+- [11. Do not threaten to ahelp other players or argue with them about rules](./core/c11-ahelp-threats.md)
+- [12. Players must be and act at least 16 years old](./core/c12-min-age.md)
+- [13. Use realistic character names, and do not use names of famous people](./core/c13-character-names.md)
+- [14. Do not use LOOC or OOC to share current round information](./core/c14-ic-in-ooc.md)
 
 # Roleplay Rules
 
