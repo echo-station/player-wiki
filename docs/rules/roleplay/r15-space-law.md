@@ -1,6 +1,6 @@
 # R15. Command and Security must follow Space Law
 
-All non-antagonist command and security roles must obey [Space Law](./../space-law.md). This includes non-antagonists who are promoted to or gain a position during the round in any way. This also includes non-antagonists who are acting as a security role.
+All non-antagonist command and security roles must obey [Space Law](../../documents/space-law.md). This includes non-antagonists who are promoted to or gain a position during the round in any way. This also includes non-antagonists who are acting as a security role.
 
 This prohibits use of syndicate items, including uplinks by command and security.
 
