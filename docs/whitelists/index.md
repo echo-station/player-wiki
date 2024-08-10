@@ -16,8 +16,8 @@ If you are not Server Whitelisted, you do not have access to the following roles
 - All Senior roles (Senior Engineer, Senior Physician, ..)
 - Salvage Specialist
 - All antagonists, exluding:
-  - Space Dragon
-  - Initial Infected
+    - Space Dragon
+    - Initial Infected
 
 To learn more, visit [Server Whitelist](./server-whitelist.md).
 
