@@ -55,6 +55,11 @@ nav:
     - documents/space-law.md
     - documents/standard-operating-procedure.md
     - documents/alert-procedure.md
+  - Whitelisting:
+    - whitelists/index.md
+    - whitelists/server-whitelist.md
+    - whitelists/role-whitelist.md
+
   # - Lore:
   #   - lore/lore.md
 
