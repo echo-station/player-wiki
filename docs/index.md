@@ -39,4 +39,4 @@ We value fun roleplay and character development over winning. If you're more foc
 
 Security, Command and most antag roles require [Server Whitelisting](./whitelists/server-whitelist.md). Visit our general [Whitelisting page](./whitelists/index.md) to learn more.
 
-Captain, Head of Security and Warden require explicit [Role Whitelistin](./whitelists/role-whitelist.md).
+Captain, Head of Security and Warden require explicit [Role Whitelisting](./whitelists/role-whitelist.md).
