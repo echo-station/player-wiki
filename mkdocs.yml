@@ -1,10 +1,12 @@
-site_name: Echo Station Wiki
+site_name: "Echo Station: Player Wiki"
 docs_dir: docs
 site_url: https://wiki.echo-station.org/
 repo_url: https://github.com/echo-station/wiki
 
 nav:
-  - Welcome: index.md
+  - Welcome:
+    - index.md
+    - features.md
   - Rules:
     - rules/index.md
     - Core rules:
@@ -65,9 +67,9 @@ nav:
 
 markdown_extensions:
   - tables
-  - admonition
-  - pymdownx.details # for admonitions
-  - pymdownx.superfences # for admonitions
+  - pymdownx.saneheaders # If you write "#header", it wont work anymore. Write "# header" instead.
+  - pymdownx.blocks.details # Adds collapsible details blocks
+  - pymdownx.blocks.admonition # Adds admonition blocks
 
 plugins:
   - search # Enables search (yes, really!)
@@ -85,6 +87,8 @@ plugins:
 
 theme:
   name: material
+  favicon: static/favicon.ico
+  logo: static/LogoOnlyTransparentWhite.png
 
   features:
     - navigation.instant # Use XHR to load pages without full reload
@@ -104,18 +108,21 @@ theme:
     # Dark mode first, making it the default.
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      primary: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
     # Palette toggle for light mode
     - scheme: default
-      primary: deep-orange
+      primary: cyan
       accent: cyan
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
+
+extra_css:
+  - style.css
 
 # Social links
 extra:

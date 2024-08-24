@@ -7,18 +7,21 @@
 
 # Echo Station
 
+![static/logo.png](./static/logo.png)
+
 Welcome to Echo Station! We hope you enjoy your stay.
 
 This wiki contains helpful information for everything you need or may want to know. This includes [Rules](./rules/index.md), in-game documents such as [Space Law](./documents/space-law.md), [Standard Operating Procedures](./documents/standard-operating-procedure.md), and [Alert Procedure](./documents/alert-procedure.md).
 
 ## What is Echo Station?
 
-Echo Station is a fork of Delta-V. After several mechanical changes many of us were displeased with that were merged,
-including the removal of the Atmospheric Technician's fire-fighting door remote and pipe-stacking, many of us felt the
-desire to take control into our own hands. Both of these were considered necessary for basic functionality of that role.
+Echo Station is a fork off Delta-V, and is a medium roleplay (MRP) server though with a stronger-than-average focus on roleplay.
 
-In addition, many of us felt that the player community of Delta-V was declining to become LRP. This is what made us
-choose to make quality roleplay one of our core values.
+Many of us felt that the player community of larger MRP servers often decline to LRP when combined with large population caps. This is what made us choose to make quality roleplay one of our core values.
+
+## Distinguishing features
+
+We're pretty new, so there's not many to show off yet, but do take a peek at our [Features](./features.md) page!
 
 ## Important reading
 

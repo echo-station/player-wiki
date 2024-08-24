@@ -1,5 +1,10 @@
 # Role Whitelists
 
+/// admonition | Broken feature
+    type: bug
+The role whitelist functionality is currently broken. You do not currently need to apply to be role whitelisted to play the roles listed below.
+///
+
 Just like the [Server Whitelist](./server-whitelist.md), the **Role Whitelist** is in place to make sure that some high-risk roles are played by players/characters that can handle those roles.
 
 This only affects roles that are typically *targeted* by many antagonists, and are often also critical to *dealing* with antagonists.

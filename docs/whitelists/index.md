@@ -23,6 +23,11 @@ To learn more, visit [Server Whitelist](./server-whitelist.md).
 
 ## Role whitelists
 
+/// admonition | Broken feature
+    type: bug
+The role whitelist functionality is currently broken. You do not currently need to apply to be role whitelisted to play the roles listed below.
+///
+
 **On top** of those, you require explicit role whitelisting for the following roles:
 
 - Warden
@@ -30,6 +35,7 @@ To learn more, visit [Server Whitelist](./server-whitelist.md).
 - Captain
 
 To learn more, go to [Role Whitelists](./role-whitelist.md).
+
 
 ## Applying
 
