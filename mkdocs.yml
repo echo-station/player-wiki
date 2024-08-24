@@ -57,6 +57,7 @@ nav:
     - documents/space-law.md
     - documents/standard-operating-procedure.md
     - documents/alert-procedure.md
+    - documents/trials.md
   - Whitelisting:
     - whitelists/index.md
     - whitelists/server-whitelist.md
