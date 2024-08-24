@@ -79,7 +79,8 @@ plugins:
   # Shows a clean list of Github profiles at the bottom of a page.
   - git-committers:
       enabled: !ENV [CI, False]
-      repository: echo-station/wiki
+      token: !ENV [GITHUB_TOKEN]
+      repository: echo-station/player-wiki
       branch: master
 
   # Adds "Created:" and "Last update:" footer to each page.
