@@ -1,6 +1,6 @@
 /// admonition | Recommendation
     type: info
-This guide is simply a recommendation, you are not require to follow it when conducting trials
+This guide is simply a recommendation, you are not require to follow it when conducting trials.
 ///
 	
 # Trials
