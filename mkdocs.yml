@@ -1,7 +1,7 @@
 site_name: "Echo Station: Player Wiki"
 docs_dir: docs
 site_url: https://wiki.echo-station.org/
-repo_url: https://github.com/echo-station/wiki
+repo_url: https://github.com/echo-station/player-wiki
 
 nav:
   - Welcome:
@@ -78,7 +78,7 @@ plugins:
 
   # Shows a clean list of Github profiles at the bottom of a page.
   - git-committers:
-      enabled: false
+      enabled: !ENV [CI, False]
       repository: echo-station/wiki
       branch: master
 
