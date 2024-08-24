@@ -442,7 +442,7 @@ Items in the list are preceded by an indication of which department or job is le
 
 The source material and any changes made after copying it are available under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). **Changes have been made**.
 
-Source material may include:
+Source material includes:
 
 - [https://wiki.spacestation14.io/](https://wiki.spacestation14.io/)
 - [https://wiki.delta-v.org](https://wiki.delta-v.org)

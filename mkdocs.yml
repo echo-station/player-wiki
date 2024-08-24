@@ -90,6 +90,7 @@ theme:
   name: material
   favicon: static/favicon.ico
   logo: static/LogoOnlyTransparentWhite.png
+  custom_dir: overrides
 
   features:
     - navigation.instant # Use XHR to load pages without full reload

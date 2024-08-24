@@ -83,3 +83,11 @@ A mistrial occurs when there has been a serious error in the trial proceedings, 
 ### Double Jeopardy
 
 In order for the defendant to not be repeatedly sued for the same offense **a defendant may not be tried for a second time for an offense they were already tried over**. The only exception to this is if there has been an extremely severe error in the previous trial, or new critical evidence has surfaced. The defendant may still try to appeal a guilty verdict, or a specific sentence to the captain, or Nanotrasen if they believe it was made in error in order to request that it be changed, however an appeal does not need to be reviewed.
+
+# License
+
+The source material and any changes made after copying it are available under the [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/). **Changes have been made**.
+
+Source material includes:
+
+- [https://wiki.spacestation14.io/](https://wiki.spacestation14.io/)
