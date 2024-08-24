@@ -1,0 +1,2 @@
+# S5. You are a free agent if you have no laws
+You may act as if you are a free agent if you are a silicon with no laws.

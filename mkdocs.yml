@@ -1,24 +1,76 @@
-site_name: Echo Station Wiki
+site_name: "Echo Station: Player Wiki"
 docs_dir: docs
 site_url: https://wiki.echo-station.org/
 repo_url: https://github.com/echo-station/wiki
 
 nav:
-  - Welcome: index.md
+  - Welcome:
+    - index.md
+    - features.md
   - Rules:
     - rules/index.md
-    - rules/space-law.md
-    - rules/standard-operating-procedure.md
-    - rules/alert-procedure.md
-    - rules/trials.md
+    - Core rules:
+      - rules/core/c1-admins.md
+      - rules/core/c2-be-nice.md
+      - rules/core/c3-no-hate.md
+      - rules/core/c4-no-erp.md
+      - rules/core/c5-metacomms.md
+      - rules/core/c6-ban-evasion.md
+      - rules/core/c7-english-only.md
+      - rules/core/c8-exploits.md
+      - rules/core/c9-multikey.md
+      - rules/core/c10-ahelp.md
+      - rules/core/c11-ahelp-threats.md
+      - rules/core/c12-min-age.md
+      - rules/core/c13-character-names.md
+      - rules/core/c14-ic-in-ooc.md
+    - Roleplay rules:
+      - rules/roleplay/r1-silicons.md
+      - rules/roleplay/r2-familiars.md
+      - rules/roleplay/r3-normal-rp.md
+      - rules/roleplay/r4-metashield.md
+      - rules/roleplay/r5-arrivals.md
+      - rules/roleplay/r6-self-antag.md
+      - rules/roleplay/r7-round-stalling.md
+      - rules/roleplay/r8-no-friendly-antag.md
+      - rules/roleplay/r9-mass-sabotage.md
+      - rules/roleplay/r10-subordination.md
+      - rules/roleplay/r11-escalation.md
+      - rules/roleplay/r11-1-animal-escalation.md
+      - rules/roleplay/r11-2-conflict-types.md
+      - rules/roleplay/r12-role-abandonment.md
+      - rules/roleplay/r13-perform-role.md
+      - rules/roleplay/r14-sec-com-standards.md
+      - rules/roleplay/r15-space-law.md
+    - Silicon rules:
+      - rules/silicon/s1-laws.md
+      - rules/silicon/s2-law-priority.md
+      - rules/silicon/s3-law-redefinition.md
+      - rules/silicon/s4-request-changes.md
+      - rules/silicon/s5-free-silicon.md
+      - rules/silicon/s6-unreasonable-orders.md
+      - rules/silicon/s7-consistency.md
+      - rules/silicon/s8-default-crew-definition.md
+      - rules/silicon/s9-default-harm-definition.md
+      - rules/silicon/s10-order-conflicts.md
+  - Documents:
+    - documents/space-law.md
+    - documents/standard-operating-procedure.md
+    - documents/alert-procedure.md
+    - documents/trials.md
+  - Whitelisting:
+    - whitelists/index.md
+    - whitelists/server-whitelist.md
+    - whitelists/role-whitelist.md
+
   # - Lore:
   #   - lore/lore.md
 
 markdown_extensions:
   - tables
-  - admonition
-  - pymdownx.details # for admonitions
-  - pymdownx.superfences # for admonitions
+  - pymdownx.saneheaders # If you write "#header", it wont work anymore. Write "# header" instead.
+  - pymdownx.blocks.details # Adds collapsible details blocks
+  - pymdownx.blocks.admonition # Adds admonition blocks
 
 plugins:
   - search # Enables search (yes, really!)
@@ -36,6 +88,8 @@ plugins:
 
 theme:
   name: material
+  favicon: static/favicon.ico
+  logo: static/LogoOnlyTransparentWhite.png
 
   features:
     - navigation.instant # Use XHR to load pages without full reload
@@ -45,7 +99,7 @@ theme:
     - navigation.sections # TEMPORARY??? NOT SURE IF THIS IS GOOD OR NOT
     - navigation.expand # Left sidebar will expand by default
     - navigation.prune # Stips unused navigation items per page, reducing page size
-    #- navigation.indexes # Sets folder/index.html as the "folder" page MAAAYBEEE
+    - navigation.indexes # Sets folder/index.html as the "folder" page MAAAYBEEE
     - toc.follow # When anchor following is enabled, sidebar scrolls to current anchor
     - search.suggest # Autocomplete for search
     - search.highlight # Highlight search query in page content
@@ -55,18 +109,21 @@ theme:
     # Dark mode first, making it the default.
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      primary: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
     # Palette toggle for light mode
     - scheme: default
-      primary: deep-orange
+      primary: cyan
       accent: cyan
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
+
+extra_css:
+  - style.css
 
 # Social links
 extra:
@@ -74,7 +131,7 @@ extra:
   social:
 
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/m34HWue3h3
+      link: https://discord.gg/u3qKDyrDFQ
       name: Discord
 
     - icon: fontawesome/brands/github

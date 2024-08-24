@@ -1,0 +1,16 @@
+
+/* Navbar: Don't mess with opacity since it's harder to read. */
+.md-tabs__link {
+    transition: none;
+    opacity: 1;
+}
+
+/* Navbar: Active item is bold */
+.md-tabs__item--active .md-tabs__link {
+    font-weight: bold;
+}
+
+/* Sidebar links -- SNAPPY! */
+.md-nav__link {
+    transition: none;
+}

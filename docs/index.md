@@ -5,16 +5,41 @@
     editor: markdown
 ---
 
-# Welcome to NanoTrasen!
+# Echo Station
 
-We are pleased to have you join our distinguished team of professionals dedicated to pushing the boundaries of space exploration and technology. Your role is crucial to our ongoing success and the advancement of our mission.
+![static/logo.png](./static/logo.png)
 
-As part of your onboarding, it is imperative that you familiarize yourself with  our [Company Policies](./rules/index.md), intergalactic [Space Law](./rules/space-law.md), [Standard Operating Procedures (SOP)](./rules/standard-operating-procedure.md), and [Alert Protocols](./rules/alert-procedure.md). Strict adherence to these regulations is mandatory for maintaining compliance, safety, and efficiency in all our operations. We expect you to thoroughly understand and follow these rules to ensure the smooth functioning of our missions.
+Welcome to Echo Station! We hope you enjoy your stay.
 
-You will be deployed to one of our stations in the Echo sector, where your skills and contributions will be vital. We trust you will perform your duties with the utmost dedication and professionalism, aligning with our high standards and operational objectives.
+This wiki contains helpful information for everything you need or may want to know. This includes [Rules](./rules/index.md), in-game documents such as [Space Law](./documents/space-law.md), [Standard Operating Procedures](./documents/standard-operating-procedure.md), and [Alert Procedure](./documents/alert-procedure.md).
 
-Welcome aboard, and we look forward to seeing the impact you will make.
+## What is Echo Station?
 
-Cedric Hale
-Chief Operations Officer
-NT Central Command
+Echo Station is a fork off Delta-V, and is a medium roleplay (MRP) server though with a stronger-than-average focus on roleplay.
+
+Many of us felt that the player community of larger MRP servers often decline to LRP when combined with large population caps. This is what made us choose to make quality roleplay one of our core values.
+
+## Distinguishing features
+
+We're pretty new, so there's not many to show off yet, but do take a peek at our [Features](./features.md) page!
+
+## Important reading
+
+Prior to playing on Echo Station, we recommend reading the following documents:
+
+- [Rules](./rules/index.md)
+- [Space Law](./documents/space-law.md)
+- [Standard Operating Procedures](./documents/standard-operating-procedure.md)
+- [Alert Procedure](./documents/alert-procedure.md)
+
+## Policies
+
+### Roleplay first
+
+We value fun roleplay and character development over winning. If you're more focussed on winning or mechanics than on interacting with others, this server is probably not a good fit for you.
+
+### Server and Role whitelists
+
+Security, Command and most antag roles require [Server Whitelisting](./whitelists/server-whitelist.md). Visit our general [Whitelisting page](./whitelists/index.md) to learn more.
+
+Captain, Head of Security and Warden require explicit [Role Whitelisting](./whitelists/role-whitelist.md).
